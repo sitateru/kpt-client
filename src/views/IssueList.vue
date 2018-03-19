@@ -23,7 +23,7 @@ export default {
         { title: 'デプロイが遅い', body: 'デプロイのスピードが遅く、開発効率が下がっている', type: 'problem' },
         { title: 'ウォーターサーバーがほしい', body: '水分を気軽にとれず、効率が悪い', type: 'problem' },
         { title: 'コーヒーが飲める', body: 'コーヒー豆が用意されており、いつでも煎れられる', type: 'keep' },
-        { title: 'Vuejsのドキュメンテーション', body: 'みんなでVuejsの知見を社内ブログにためる', type: 'try' },
+        { title: 'Vuejsのドキュメンテーション', body: 'みんなでVuejsの知見を社内ブログにためる', type: 'try' }
       ]
     }
   }
