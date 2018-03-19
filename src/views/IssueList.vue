@@ -6,7 +6,7 @@
           :key="issue.id"
           >
          <div class="view">
-           <label @dblclick="editTodo(issue)">[{{ issue.type }}] {{ issue.title }}</label>
+           <label @dblclick="editIssue(issue)">[{{ issue.type }}] {{ issue.title }}</label>
            <p>{{ issue.body }}</p>
          </div>
       </li>
@@ -25,6 +25,11 @@ export default {
         { title: 'コーヒーが飲める', body: 'コーヒー豆が用意されており、いつでも煎れられる', type: 'keep' },
         { title: 'Vuejsのドキュメンテーション', body: 'みんなでVuejsの知見を社内ブログにためる', type: 'try' }
       ]
+    }
+  },
+  methods: {
+    editIssue: function (event) {
+      // not impliment
     }
   }
 }
