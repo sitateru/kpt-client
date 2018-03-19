@@ -1,6 +1,7 @@
 # kpt-client
 
-> A Vue.js project
+> KPTを行うためのクライアントアプリです
+
 
 ## Build Setup
 
@@ -28,3 +29,12 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+## プロジェクトの進み方
+
+- Github Flowとする (masterからブランチを切って、masterにPull Request)
+
+## KPTとは
+
+https://kuranuki.sonicgarden.jp/2013/05/kpt.html
